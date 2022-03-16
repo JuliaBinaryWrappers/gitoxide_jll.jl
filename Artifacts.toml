@@ -1,0 +1,52 @@
+[[gitoxide]]
+arch = "aarch64"
+git-tree-sha1 = "2541056dce7d9196bf60a86c0ee9d93d5ac392e3"
+libc = "glibc"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "d2e3c027246002f538bd984778bd6709936fa283dce0e4e317466de5a968849d"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.aarch64-linux-gnu.tar.gz"
+[[gitoxide]]
+arch = "aarch64"
+git-tree-sha1 = "2a24b4e12a1a7c4c28992a87f474eed212264385"
+libc = "musl"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "95523c7ebaa8340eab823e382feb1b2b0f1765c31a6755695e9294deefd6febe"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.aarch64-linux-musl.tar.gz"
+[[gitoxide]]
+arch = "x86_64"
+git-tree-sha1 = "37a63a7ed14261b09fc3d67eae4767ac678a3260"
+libc = "glibc"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "0c7013a953b629f04a6473a66e170d0131eeb10dcbacfd2c9456b2881c37dd28"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.x86_64-linux-gnu.tar.gz"
+[[gitoxide]]
+arch = "x86_64"
+git-tree-sha1 = "c8458057b4e27ea0df079f538d207358057ca7ec"
+libc = "musl"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "addcf52a887a54a6f66002387e375ef2a4225f189cc0fdc5cd22137a9a4153f8"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.x86_64-linux-musl.tar.gz"
+[[gitoxide]]
+arch = "x86_64"
+git-tree-sha1 = "50c2213d523c88ee7cf4c1232fe6d1a0d0a1c306"
+os = "freebsd"
+
+    [[gitoxide.download]]
+    sha256 = "a1dc69767fab094a1e59f68123b30517512212b49b7888db4f7bc0e0e3d15578"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.x86_64-unknown-freebsd.tar.gz"
+[[gitoxide]]
+arch = "x86_64"
+git-tree-sha1 = "241c4d09a917da3e8719aad815672110c3429d9e"
+os = "windows"
+
+    [[gitoxide.download]]
+    sha256 = "5d716cb0e3d49a18e69a07eb757d64fec08812537d7f54e36a65e1434e724a1d"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+0/gitoxide.v0.11.0.x86_64-w64-mingw32.tar.gz"
