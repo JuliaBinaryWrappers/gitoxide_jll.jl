@@ -1,86 +1,88 @@
 [[gitoxide]]
 arch = "aarch64"
-git-tree-sha1 = "70596db861a5bec1855af498dbccda80f63f891b"
+git-tree-sha1 = "a837f51c7d428e733e2496ca85abad8802d530a7"
 os = "macos"
 
     [[gitoxide.download]]
-    sha256 = "63790a98c09bcf284a59e9849dd6c55422828376b626c3e2034f2231ce6d0e77"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "091c42c2a26863b5205d44f1650c4537facf63b7384ed0de80bae608fff6082b"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.aarch64-apple-darwin.tar.gz"
 [[gitoxide]]
 arch = "aarch64"
-git-tree-sha1 = "66f51182bd07afb6537c3bef30e815a8c16b87df"
+git-tree-sha1 = "378b67a5cea5daec8a0983ddf18ed19988fa7cc4"
 libc = "glibc"
 os = "linux"
 
     [[gitoxide.download]]
-    sha256 = "9c72cdf1a19fe408b03b7d10031f58034dac2299f00ac8544a44e52d75c5dfcb"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "7472b13e5070d959edd26833f3417dcef45e2eefc60b179c75f5df3e1472e87a"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.aarch64-linux-gnu.tar.gz"
 [[gitoxide]]
-arch = "aarch64"
-git-tree-sha1 = "d2399e2a0695c542b7015ff95dbd9173d89e7edc"
-libc = "musl"
-os = "linux"
-
-    [[gitoxide.download]]
-    sha256 = "800149db8a13fd370850a21eeb5517d24fc3b0d4349c0f44dbe5595c0fd089e3"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.aarch64-linux-musl.tar.gz"
-[[gitoxide]]
-arch = "i686"
-git-tree-sha1 = "bbb8e79aeb8ab1d31729b0044823904e41101526"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "46e1cff3044af45ebc7dac818204d5166eb31cd9"
 libc = "glibc"
 os = "linux"
 
     [[gitoxide.download]]
-    sha256 = "de22b11599ad77e1f9f05ef5e82296a5deccb42f945754ba302e95414a0b6ac6"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.i686-linux-gnu.tar.gz"
+    sha256 = "111314fb8000ddf5070565be3216586ba2ec547a2dd7fd6d65d41fcb79b4b0aa"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.armv6l-linux-gnueabihf.tar.gz"
 [[gitoxide]]
-arch = "i686"
-git-tree-sha1 = "adcb83b856b04e70d3acabf5544e1e3d17049c2c"
-libc = "musl"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ffe4be7652b891826ad899dbba95f4069b27ac28"
+libc = "glibc"
 os = "linux"
 
     [[gitoxide.download]]
-    sha256 = "794426905b49e42859de50d5c6ebb99e4522b9e145d423be436b2e83794203c7"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.i686-linux-musl.tar.gz"
+    sha256 = "feea9c86cfefa963d31a790ffec4ccf6e07174e5a3f1ef6a0a4785f164286b9e"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.armv7l-linux-gnueabihf.tar.gz"
+[[gitoxide]]
+arch = "i686"
+git-tree-sha1 = "a7ffa315d5a4bbe8133ef10e0ed8bc8fcc1d1c2c"
+libc = "glibc"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "4060b3e7e92f3f8466ed31c7c290ea9ac4310b0793a6096e4916e449262f8d2b"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.i686-linux-gnu.tar.gz"
+[[gitoxide]]
+arch = "powerpc64le"
+git-tree-sha1 = "c4933a5e797cbd58184aa9623d4e89facab8ed11"
+libc = "glibc"
+os = "linux"
+
+    [[gitoxide.download]]
+    sha256 = "3612c28a7fa6569f445be4148447c2d5d3d36b622096319851f855d8c40d7638"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.powerpc64le-linux-gnu.tar.gz"
 [[gitoxide]]
 arch = "x86_64"
-git-tree-sha1 = "d3a5afaa97e5801f71d0e73d163511c3971d1007"
+git-tree-sha1 = "ccc9d7dfc88c36cefe4a6e314f7ecf6711cf60cf"
 os = "macos"
 
     [[gitoxide.download]]
-    sha256 = "4ba7f635ff0eaee27dea44b595206dd7f1e29e5eb0b896a6cd799c37dc42ef4c"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "430017794ff931ebd2d620e8fad80abe1aa35ec97a05ae7c2e2702d2c9efe577"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.x86_64-apple-darwin.tar.gz"
 [[gitoxide]]
 arch = "x86_64"
-git-tree-sha1 = "f53bd3ae9e3ee77008737f96cb640e9f3419259a"
+git-tree-sha1 = "747cfb30246937b1d9fcc4cbc8826c2d200ce8c7"
 libc = "glibc"
 os = "linux"
 
     [[gitoxide.download]]
-    sha256 = "91be0ef8ed2b346197c74066f69e3dfe859c1cc7ccbc1fcaf0b845f53e6ffb5f"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "01b00956fc7c9e1b90ec226bd70057f2add1f37bfcf944068b45a18efc6f4ca7"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.x86_64-linux-gnu.tar.gz"
 [[gitoxide]]
 arch = "x86_64"
-git-tree-sha1 = "7d299d658573751c24d2accca03272f1f9e6be3e"
-libc = "musl"
-os = "linux"
-
-    [[gitoxide.download]]
-    sha256 = "e348804c0af61f1c9f4fca4062211c7d71809f4da937379177438d229dfed1d8"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.x86_64-linux-musl.tar.gz"
-[[gitoxide]]
-arch = "x86_64"
-git-tree-sha1 = "c1043b24c7f653a5db9323f9f8d6178822c4f152"
+git-tree-sha1 = "3c464de778d3f0c26e4da0db883b0b940d55a737"
 os = "freebsd"
 
     [[gitoxide.download]]
-    sha256 = "8ca106f018b30e85416361c2e45b543791a5ed71529fb88542079c2091b7d664"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "2b1c96df7f1d864500de492a0104c87781a31890c8225b18c48df71a4588c90d"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.x86_64-unknown-freebsd.tar.gz"
 [[gitoxide]]
 arch = "x86_64"
-git-tree-sha1 = "7e77c49a38b0d186fcef242fdd95e8ffaeb8b350"
+git-tree-sha1 = "1fe5576efbe4021411d8ac08efdefa7018b73a32"
 os = "windows"
 
     [[gitoxide.download]]
-    sha256 = "0fb03dbe7ef46efffa8962df42dfbbaa926bf22be4bd9cd4b18ae0fb168f8ff3"
-    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.11.0+2/gitoxide.v0.11.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "cdf113b6172ec96389b4c9f3603ece87e2fff6331581404862df344ced5764a4"
+    url = "https://github.com/JuliaBinaryWrappers/gitoxide_jll.jl/releases/download/gitoxide-v0.44.0+0/gitoxide.v0.44.0.x86_64-w64-mingw32.tar.gz"
